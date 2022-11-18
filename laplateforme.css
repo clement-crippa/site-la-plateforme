@@ -245,12 +245,52 @@ section.footer2-logo {
     font-family: 'Arial', serif;
     color: white;
 }
-div.boite-formulaire{
+div.form-placement{
+    justify-content: center;
     display: flex;
-    background-color: #88C0D0;
-    width: 100%;
-    height: 300px;
+    background-color: #82a3c3;
 }
+div.taillebigform{
+    height: 500px;
+    width: 800px;
+    margin-top: 60px;;
+}
+.parentform {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    text-align: center;
+    background-color: white;
+}
+
+.div1form { grid-area: 1 / 1 / 2 / 2; }
+.div2form { grid-area: 1 / 2 / 2 / 3;}
+.taille-form{
+    width: 400px;
+}
+.form-taille{
+    padding: 10px;
+    margin: 10px;
+}
+.div3form { grid-area: 2 / 1 / 3 / 2; }
+.div4form { grid-area: 2 / 2 / 3 / 3; }
+.div5form { grid-area: 3 / 1 / 4 / 2; }
+.div6form { grid-area: 3 / 2 / 4 / 3; }
+.div7form { grid-area: 4 / 1 / 5 / 2; }
+.div8form { grid-area: 4 / 2 / 5 / 3; }
+.div9form { grid-area: 5 / 1 / 6 / 2; }
+.div10form { grid-area: 5 / 2 / 6 / 3; }
+.div11form { grid-area: 6 / 1 / 7 / 2; }
+.div12form { grid-area: 6 / 2 / 7 / 3; }
+.div13form { grid-area: 7 / 1 / 8 / 2; }
+.div14form { grid-area: 7 / 2 / 8 / 3; }
+
+.newsletter{
+    font-family: 'Arial', serif;
+}
+
 div.text-formulaire{
     text-align: center;
     justify-content: space-evenly;
@@ -260,6 +300,9 @@ div.text-formulaire{
 
 }
 
+body.form{
+    background-color: white;
+}
 .titre-formulaire{
     color:#275FA0;
     font-family: 'Arial', serif;

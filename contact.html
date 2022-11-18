@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="laplateforme.css">
     <link rel="icon" href="img/icon-plateforme.jpg">
 </head>
-<body>
+<body class="form">
 <header>
     <ul class="navigation1">
         <a href="accueil.html">
@@ -20,12 +20,16 @@
         <li><a class="navigation2" href="accueil.html">Accueil</a></li>
     </ul>
 </header>
-<div class="boite-formulaire">
-    <div class="text-formulaire">
-        <h1 class="titre-contact">Vous souhaitez des informations ou candidater à La Plateforme_ ?</h1>
-        <h1 class="titre-formulaire">Remplissez ce formulaire et nous reviendrons vers vous</h1>
-        <form>
-             <span class="text-formulaire"><select name="formation" id="selection-formation">
+<h1><b class="titre-formulaire">Vous souhaitez des informations ou candidater à La Plateforme_ ?<br><br>
+    Remplissez ce formulaire et nous reviendrons vers vous</b>
+</h1>
+<form>
+    <div class="form-placement">
+        <div class="taillebigform">
+            <div class="parentform">
+
+                <div class="div1form">
+                    <select class="form-taille" name="formation" id="selection-formation">
                 <option value="">La formation qui vous intéresse</option>
                 <option value="coding-school">Coding School</option>
                 <option value="ai-school">AI School</option>
@@ -38,30 +42,31 @@
                 <option value="start">Laplateforme/START</option>
                 <option value="innovation-lab">Innovation Lab</option>
                 <option value="aws-re-start">AWS re/Start</option>
-            </select>
-            <select name="entretien" id="selection-entretien">
+                 </select>
+                </div>
+           <div class="div2form"> <select class="form-taille taille-form" name="entretien" id="selection-entretien">
                 <option value="">Souhaitez-vous passer un entretien préalable au test d'entrée?</option>
                 <option value="oui-entretien">Oui, je souhaite passer un entretien avec un membre de l'équipe pédagogique pour avoir de plus amples informations</option>
                 <option value="non-entretien">Non, je souhaite candidater et passer le test d'entrée sans entretien préalable</option>
             </select>
-             </span>
-
-            <span class="text-formulaire"><input type="text" name="prenom" placeholder="Prénom"></span>
-            <span class="text-formulaire"><input type="text" name="nom" placeholder="Nom"></span>
-            <span class="text-formulaire"><input type="email" name="email" placeholder="Email"></span>
-            <span class="text-formulaire"><input type="text" name="telephone" minLength="10" maxLength="10" placeholder="Téléphone"></span>
-            <span class="text-formulaire"><input type="text" name="adresse" placeholder="Adresse"></span>
-            <span class="text-formulaire"><input type="text" name="code postal" placeholder="Code Postal"></span>
-            <span class="text-formulaire"><input type="text" name="ville" placeholder="Ville"></span>
-            <span class="text-formulaire"><input type="text" name="decouverte" size="30px" placeholder="Comment nous avez-vous connu ?"></span>
-            <span class="text-formulaire"><input type="text" name="niveau-etude"  size="25px" placeholder="Quel est votre niveau d'étude ?"></span>
-            <span class="text-formulaire"><input type="text" name="message" size="100px" maxLength="500" placeholder="Message"></span>
-            <span class="text-formulaire"><input type="checkbox" id="newsletter" name="newsletter" value="yes"></span>
-            <span class="text-formulaire"><label for="newsletter">Inscrivez-vous à notre newsletter</label></span>
-            <span class="text-formulaire"><input type="submit" value="Envoyer"></span>
-        </form>
+           </div>
+        <div class="div3form"> <input class="form-taille" type="text" name="prenom" placeholder="Prénom"></div>
+        <div class="div4form"> <input class="form-taille" type="text" name="nom" placeholder="Nom"></div>
+        <div class="div5form"> <input class="form-taille" type="email" name="email" placeholder="Email"></div>
+        <div class="div6form"> <input class="form-taille" type="text" name="telephone" minLength="10" maxLength="10" placeholder="Téléphone"></div>
+        <div class="div7form"> <input class="form-taille" type="text" name="adresse" placeholder="Adresse"></div>
+        <div class="div8form"> <input class="form-taille" type="text" name="code postal" placeholder="Code Postal"></div>
+        <div class="div9form"> <input class="form-taille" type="text" name="ville" placeholder="Ville"></div>
+        <div class="div10form"> <input class="form-taille" type="text" name="decouverte" size="30px" placeholder="Comment nous avez-vous connu ?"></div>
+        <div class="div11form"> <input class="form-taille" type="text" name="niveau-etude"  size="25px" placeholder="Quel est votre niveau d'étude ?"></div>
+        <div class="div12form"> <input class="form-taille taille-form" type="text" name="message" size="100px" maxLength="500" placeholder="Message"></div>
+        <div class="div13form"> <input class="form-taille" type="checkbox" id="newsletter" name="newsletter" value="yes">
+        <label class="newsletter" for="newsletter">Inscrivez-vous à notre newsletter</label></div>
+            <div class="div14form"><input class="form-taille" type="submit" value="Envoyer"></div>
+         </div>
+        </div>
     </div>
-</div>
+</form>
 <div class="googlemap-boite">
         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11613.824043057692!2d5.3701241!3d43.3047126!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12c9c13ddc0211b9%3A0xd1642ae4b32c4bc4!2sEcole%20La%20Plateforme%2C%20le%20Campus%20M%C3%A9diterran%C3%A9en%20du%20Num%C3%A9rique!5e0!3m2!1sfr!2sfr!4v1668677190745!5m2!1sfr!2sfr" width="800" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
